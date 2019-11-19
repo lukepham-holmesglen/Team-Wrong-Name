@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/BeatEmUp_GameTemplate3D/01_Game.unity
+- path: Assets/Anime Girl Transformers/Scenes/Level1.unity
   isLoaded: 1
   isActive: 1
