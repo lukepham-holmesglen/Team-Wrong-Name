@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.PostProcessing;
 public class AddProcessing : MonoBehaviour
 {
+    public PostProcessingProfile profile;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class AddProcessing : MonoBehaviour
             if (cam.isActiveAndEnabled)
             {
                 cam.gameObject.AddComponent<PostProcessingBehaviour>();
+                cam.gameObject.GetComponent<PostProcessingBehaviour>().profile = profile;
             }
         }
     }
