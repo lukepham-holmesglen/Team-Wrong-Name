@@ -2,25 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.PostProcessing;
+using System;
 public class AddProcessing : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public PostProcessingProfile profile;
+    // Start is called before the first frame updat
+    Camera[] cameras; 
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    Camera[] cameras;
-    void Update()
-    {
         cameras = GameObject.FindObjectsOfType<Camera>();
-        foreach(Camera cam in cameras)
+        foreach (Camera cam in cameras)
         {
             if (cam.isActiveAndEnabled)
             {
                 cam.gameObject.AddComponent<PostProcessingBehaviour>();
+                cam.gameObject.GetComponent<PostProcessingBehaviour>().profile = profile;
             }
         }
+    }
+    void Update()
+    {
+
     }
 }
