@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a95774a56fa5824b80a4096a75a37fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponBone: {fileID: 0}
+  weaponBone: {fileID: 7429617544757191800}
   hitZRange: 2.2
   PunchCombo:
   - animTrigger: Punch1
@@ -455,6 +455,12 @@ GameObject:
 --- !u!4 &7429617544757191764 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400112, guid: 5b9c182c434073946a780c2421670fb2,
+    type: 3}
+  m_PrefabInstance: {fileID: 7429617544757329572}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7429617544757191800 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400092, guid: 5b9c182c434073946a780c2421670fb2,
     type: 3}
   m_PrefabInstance: {fileID: 7429617544757329572}
   m_PrefabAsset: {fileID: 0}
