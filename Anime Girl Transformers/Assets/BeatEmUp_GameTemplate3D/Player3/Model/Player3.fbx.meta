@@ -128,6 +128,7 @@ ModelImporter:
     400120: UpperEyeLids
     400122: animegrill:polySurface31
     2100000: animegrill_initialShadingGroup1
+    2100002: initialShadingGroup
     4300000: Char
     4300002: animegrill:polySurface31
     7400000: Take 001
@@ -140,7 +141,7 @@ ModelImporter:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -148,13 +149,7 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
-      does not match position in animation file:\n\t'Bip001 L Thigh' : position error
-      = 54.277790 mm\n\t'Bip001 L Calf' : position error = 242.378143 mm\n\t'Bip001
-      L Foot' : position error = 242.378265 mm\n\t'Bip001 L Toe0' : position error
-      = 125.488190 mm\n\t'Bip001 R Thigh' : position error = 54.277802 mm\n\t'Bip001
-      R Calf' : position error = 242.378174 mm\n\t'Bip001 R Foot' : position error
-      = 242.378235 mm\n\t'Bip001 R Toe0' : position error = 125.488159 mm\n"
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
