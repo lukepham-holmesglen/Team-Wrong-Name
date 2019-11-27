@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Anime Girl Transformers/Scenes/MenuScene.unity
+    guid: e189f2725332d224b85b79497f1004ad
+  - enabled: 1
     path: Assets/Anime Girl Transformers/Scenes/Level1.unity
     guid: 584e41eb205e9094494ca3ad4b412540
   - enabled: 1
