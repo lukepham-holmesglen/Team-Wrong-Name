@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Anime Girl Transformers/Scenes/MenuScene.unity
+- path: Assets/Anime Girl Transformers/Scenes/Level2.unity
   isLoaded: 1
   isActive: 1
