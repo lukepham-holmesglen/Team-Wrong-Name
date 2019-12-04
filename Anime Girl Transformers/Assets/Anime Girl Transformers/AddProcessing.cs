@@ -15,6 +15,7 @@ public class AddProcessing : MonoBehaviour
         {
             if (cam.isActiveAndEnabled)
             {
+                cam.clearFlags = CameraClearFlags.Skybox;
                 cam.gameObject.AddComponent<PostProcessingBehaviour>();
                 cam.gameObject.GetComponent<PostProcessingBehaviour>().profile = profile;
             }

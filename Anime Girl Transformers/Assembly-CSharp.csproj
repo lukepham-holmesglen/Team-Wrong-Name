@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Anime Girl Transformers\AddProcessing.cs" />
+     <Compile Include="Assets\Anime Girl Transformers\Scenes\Settings.cs" />
      <Compile Include="Assets\BeatEmUp_GameTemplate3D\Scripts\Attributes\HelpAttribute.cs" />
      <Compile Include="Assets\BeatEmUp_GameTemplate3D\Scripts\Audio\AudioItem.cs" />
      <Compile Include="Assets\BeatEmUp_GameTemplate3D\Scripts\Audio\AudioPlayer.cs" />
@@ -720,6 +721,7 @@
      <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+     <Compile Include="Assets\SettingsManager.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\Fungus\Thirdparty\ThirdPartyNotices.txt" />
      <None Include="Assets\BeatEmUp_GameTemplate3D\Shaders\MatCapSimple.shader" />
@@ -823,6 +825,7 @@
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
      <None Include="Assets\BeatEmUp_GameTemplate3D\Shaders\UnlitLightMapEmissiveCubeMap.shader" />
      <None Include="Assets\Fungus\Docs\CHANGELOG.txt" />
+     <None Include="Assets\Anime Girl Transformers\Textures\dissolve.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Team-Wrong-Name/Anime Girl Transformers/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
