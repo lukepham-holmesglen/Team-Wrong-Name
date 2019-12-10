@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Anime Girl Transformers/Scenes/MenuScene.unity
     guid: e189f2725332d224b85b79497f1004ad
   - enabled: 1
-    path: Assets/Anime Girl Transformers/Scenes/Intro.unity
+    path: Assets/Anime Girl Transformers/Scenes/IntroCutscene.unity
     guid: 2f4fe3aa80eed4146af8523626aa45c5
   - enabled: 1
     path: Assets/Anime Girl Transformers/Scenes/Level1.unity
