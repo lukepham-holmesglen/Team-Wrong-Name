@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Anime Girl Transformers/Scenes/Level2.unity
     guid: 50fd00e9a85fe5145b294badb39a0a0a
+  - enabled: 1
+    path: Assets/Anime Girl Transformers/Scenes/CreditsScene.unity
+    guid: 29a9347598c8fb648b52389c134e5379
   m_configObjects: {}
