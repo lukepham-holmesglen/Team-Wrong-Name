@@ -1211,6 +1211,19 @@ GameObject:
   - component: {fileID: 1454082176}
   - component: {fileID: 1454082175}
   - component: {fileID: 1454082174}
+  - component: {fileID: 1454082179}
+  - component: {fileID: 1454082180}
+  - component: {fileID: 1454082181}
+  - component: {fileID: 1454082182}
+  - component: {fileID: 1454082183}
+  - component: {fileID: 1454082184}
+  - component: {fileID: 1454082185}
+  - component: {fileID: 1454082186}
+  - component: {fileID: 1454082188}
+  - component: {fileID: 1454082187}
+  - component: {fileID: 1454082189}
+  - component: {fileID: 1454082191}
+  - component: {fileID: 1454082190}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1245,49 +1258,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1454082134}
   selectedCommands:
-  - {fileID: 1454082170}
-  - {fileID: 1454082144}
-  - {fileID: 1454082133}
-  - {fileID: 1454082140}
-  - {fileID: 1454082173}
-  - {fileID: 1454082178}
-  - {fileID: 1454082139}
-  - {fileID: 1454082138}
-  - {fileID: 1454082137}
-  - {fileID: 1454082167}
-  - {fileID: 1454082145}
-  - {fileID: 1454082143}
-  - {fileID: 1454082177}
-  - {fileID: 1454082172}
-  - {fileID: 1454082176}
-  - {fileID: 1454082141}
-  - {fileID: 1454082142}
-  - {fileID: 1454082175}
-  - {fileID: 1454082174}
-  - {fileID: 1454082160}
-  - {fileID: 1454082159}
-  - {fileID: 1454082158}
-  - {fileID: 1454082157}
-  - {fileID: 1454082156}
-  - {fileID: 1454082155}
-  - {fileID: 1454082154}
-  - {fileID: 1454082171}
-  - {fileID: 1454082153}
-  - {fileID: 1454082152}
-  - {fileID: 1454082151}
-  - {fileID: 1454082150}
-  - {fileID: 1454082149}
-  - {fileID: 1454082166}
   - {fileID: 1454082148}
-  - {fileID: 1454082147}
-  - {fileID: 1454082165}
-  - {fileID: 1454082146}
-  - {fileID: 1454082164}
-  - {fileID: 1454082163}
-  - {fileID: 1454082162}
-  - {fileID: 1454082161}
-  - {fileID: 1454082169}
-  - {fileID: 1454082168}
   variables: []
   description: 
   stepPause: 0
@@ -1341,7 +1312,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 68.49254
-    y: 73.41379
+    y: 72.34996
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1368,13 +1339,21 @@ MonoBehaviour:
   - {fileID: 1454082176}
   - {fileID: 1454082141}
   - {fileID: 1454082142}
+  - {fileID: 1454082160}
   - {fileID: 1454082175}
   - {fileID: 1454082174}
-  - {fileID: 1454082160}
+  - {fileID: 1454082179}
+  - {fileID: 1454082185}
+  - {fileID: 1454082188}
+  - {fileID: 1454082183}
+  - {fileID: 1454082182}
+  - {fileID: 1454082184}
+  - {fileID: 1454082187}
   - {fileID: 1454082159}
   - {fileID: 1454082158}
   - {fileID: 1454082157}
   - {fileID: 1454082156}
+  - {fileID: 1454082191}
   - {fileID: 1454082155}
   - {fileID: 1454082154}
   - {fileID: 1454082171}
@@ -1384,13 +1363,18 @@ MonoBehaviour:
   - {fileID: 1454082150}
   - {fileID: 1454082149}
   - {fileID: 1454082166}
+  - {fileID: 1454082190}
   - {fileID: 1454082148}
+  - {fileID: 1454082181}
   - {fileID: 1454082147}
   - {fileID: 1454082165}
   - {fileID: 1454082146}
   - {fileID: 1454082164}
   - {fileID: 1454082163}
+  - {fileID: 1454082186}
   - {fileID: 1454082162}
+  - {fileID: 1454082180}
+  - {fileID: 1454082189}
   - {fileID: 1454082161}
   - {fileID: 1454082169}
   - {fileID: 1454082168}
@@ -1520,7 +1504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: 'I told Alania to not run off like this! '
+  storyText: 'I told Alania not to run off like this! '
   description: 
   character: {fileID: 330679724}
   portrait: {fileID: 0}
@@ -1577,7 +1561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: 'Honshitsu-teki ni! '
+  storyText: 'Woah! I- Uhh-... '
   description: 
   character: {fileID: 1106546938}
   portrait: {fileID: 0}
@@ -1746,7 +1730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: "Uhh\u2026 "
+  storyText: 'ANOTHE- Ah- I mean uhh... '
   description: 
   character: {fileID: 1106546938}
   portrait: {fileID: 0}
@@ -1885,8 +1869,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: "Suddenly, a cute red car flies down, honking its horns and heading straight
-    for Luke.  \r\n"
+  storyText: Suddenly, a cute red car flies down, honking its horns and heading straight
+    for Luke, making him cancel his retreat.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2080,7 +2064,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: Luke throws out a high-tech pocket-bola and immobilises Alania.
+  storyText: 'Stunned by Alania''s anime-esque cuteness, Luke panicks for a moment,
+    and starts stumbling around his pockets, searching for something. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2107,7 +2092,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: "Alright\u2026 Guards, do the thing, yeah? I gotta get back to Area 51. "
+  storyText: 'I''m the bad guy. '
   description: 
   character: {fileID: 1106546938}
   portrait: {fileID: 0}
@@ -2134,7 +2119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: "Oh that\u2019s what we\u2019re dealing with. "
+  storyText: Oh uhhh... Hi, nice to meet you.
   description: 
   character: {fileID: 1106546938}
   portrait: {fileID: 0}
@@ -2161,7 +2146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: Anyway! Let go of Alania!
+  storyText: 'Oh hey this place is pretty nice. '
   description: 
   character: {fileID: 330679724}
   portrait: {fileID: 0}
@@ -2260,7 +2245,7 @@ MonoBehaviour:
   shiftOffset: {x: 0, y: 0}
   move: 1
   shiftIntoPlace: 0
-  waitUntilFinished: 1
+  waitUntilFinished: 0
 --- !u!114 &1454082167
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2571,6 +2556,363 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1454082179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  storyText: 'Other Notes: Weeb. '
+  description: 
+  character: {fileID: 392447630}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1454082180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  indentLevel: 0
+  storyText: 'An alien anime girl transformer... I''m in lo- Ah- Uhh... '
+  description: 
+  character: {fileID: 1106546938}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1454082181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  storyText: Crap...
+  description: 
+  character: {fileID: 1106546938}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1454082182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  storyText: Luke throws out a high-tech pocket-bola and immobilises Alania.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1454082183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
+  storyText: 'Honshitsu-teki ni! '
+  description: 
+  character: {fileID: 1106546938}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1454082184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  storyText: SEE!?
+  description: 
+  character: {fileID: 392447630}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1454082185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  storyText: 'Just like a HUGE weeb. '
+  description: 
+  character: {fileID: 392447630}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1454082186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  indentLevel: 0
+  storyText: A-anyway! Let go of Alania!
+  description: 
+  character: {fileID: 330679724}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1454082187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 55
+  indentLevel: 0
+  storyText: 'Would a WEEB not say that!? '
+  description: 
+  character: {fileID: 392447630}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1454082188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  indentLevel: 0
+  storyText: Like a really REALLY LARGE OMEGA WEEB.
+  description: 
+  character: {fileID: 392447630}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1454082189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  storyText: I-I meant to say... From your point of view, essentially...
+  description: 
+  character: {fileID: 1106546938}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1454082190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1106546938}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c66e8edd8dd0def469279d5833ad6be3, type: 3}
+  offset: 0
+  fromPosition: {fileID: 211146119}
+  toPosition: {fileID: 1153472537}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1454082191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454082131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1106546938}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 211146119}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &1709608113
 GameObject:
   m_ObjectHideFlags: 0
