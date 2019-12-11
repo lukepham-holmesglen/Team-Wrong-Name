@@ -36,7 +36,8 @@ public static class Settings
     public static void OnStartup()
     {
         int i = 1;
-        foreach (string setting in playerpreferences)
+        AssignDefaultValues();
+        /*foreach (string setting in playerpreferences)
         {
             if (PlayerPrefs.HasKey(setting))
             {
@@ -54,9 +55,9 @@ public static class Settings
              if (i == playerpreferences.Length)
              {
                   AssignValues();
-             }
-   }
-        public static void AssignDefaultValues()
+             }*/
+    }
+    public static void AssignDefaultValues()
         {
         PlayerPrefs.SetFloat("musicVolume", 50);
         PlayerPrefs.SetFloat("effectsVolume", 60);

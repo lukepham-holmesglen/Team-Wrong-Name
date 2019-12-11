@@ -9,34 +9,42 @@ public class SettingsManager : MonoBehaviour
     //public Slider masterVolume;
     //public Slider effectVolume;
     public Timer waitUpdate;
+    public List<AudioSource> audioSources = new List<AudioSource>();
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
         Settings.OnStartup();
+        ApplyValues();
+        SceneManager.sceneLoaded += SceneManager_sceneLoaded;
+        SearchForAudio();
     }
+
+    private void SceneManager_sceneLoaded(Scene arg0, LoadSceneMode arg1)
+    {
+        SearchForAudio();
+    }
+
     void ApplyValues()
     {
         Screen.SetResolution(Settings.resolutionX, Settings.resolutionY, IntToBool(Settings.isFullscreen));
         QualitySettings.SetQualityLevel(Settings.graphicsMode);
         QualitySettings.vSyncCount = Settings.vSync;
-        Debug.Log("beans");
+        
         
     }
-    void Start()
+    void SearchForAudio()
     {
-        ApplyValues();
-        waitUpdate = new Timer(1000);
-        waitUpdate.Elapsed += WaitUpdate_Elapsed;
-        waitUpdate.AutoReset = true;
-        waitUpdate.Enabled = true;
+        foreach (AudioSource aS in GameObject.FindObjectsOfType<AudioSource>())
+        {
+            audioSources.Add(aS);
+            Debug.Log(Settings.masterVolume / 100f + "n");
+            aS.volume = Settings.masterVolume / 100f;
+        }
     }
 
     private void WaitUpdate_Elapsed(object sender, ElapsedEventArgs e)
     {
-        foreach(AudioSource aS in GameObject.FindObjectsOfType<AudioSource>())
-        {
-            aS.volume = Settings.masterVolume;
-        }
+
     }
 
     bool IntToBool(int input)
@@ -53,15 +61,18 @@ public class SettingsManager : MonoBehaviour
     //UI Controls
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     public void QuitGame()
     {
         Application.Quit();
     }
-    public void SaveChangesToSettings()
+    public void CreditsButton()
     {
-        //need to implement UI before doing this
-        //example: Settings.masterVolume = MasterVolumeSlider.value;
+        SceneManager.LoadScene("CreditsScene");
+    }
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("MenuScene");
     }
 }
