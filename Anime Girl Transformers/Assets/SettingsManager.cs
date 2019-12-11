@@ -17,11 +17,17 @@ public class SettingsManager : MonoBehaviour
         ApplyValues();
         SceneManager.sceneLoaded += SceneManager_sceneLoaded;
         SearchForAudio();
+        Camera cam = GameObject.FindObjectOfType<Camera>();
+        float targetaspect = 16.0f / 9.0f;
+        cam.aspect = targetaspect;
     }
 
     private void SceneManager_sceneLoaded(Scene arg0, LoadSceneMode arg1)
     {
+        Camera cam = GameObject.FindObjectOfType<Camera>();
+        float targetaspect = 16.0f / 9.0f;
         SearchForAudio();
+        cam.aspect = targetaspect;
     }
 
     void ApplyValues()

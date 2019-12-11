@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5b9c182c434073946a780c2421670fb2
+guid: 8f7ee4f73e965c34ca7a66e5c7847735
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -136,7 +136,12 @@ ModelImporter:
     13700000: Char
     13700002: animegrill:polySurface31
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup
+    second: {fileID: 2100000, guid: ab17bb2b0c8161c448a77ea2baacb280, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
